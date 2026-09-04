@@ -1796,9 +1796,9 @@ behaviors {
         layer_Numbers {
             display-name = "Numbers";
             bindings = <
-      &rgb_ug RGB_SAD  &trans  &rgb_ug RGB_HUD  &kp N5  &kp END  &kp PG_UP  &trans  &kp KP_N7  &kp N6  &kp KP_N6  &rgb_ug RGB_HUI  &kp KP_SLASH  &rgb_ug RGB_SAI
+      &rgb_ug RGB_SAD  &trans  &rgb_ug RGB_HUD  &kp N5  &kp END  &bt BT_CLR_ALL  &trans  &bt BT_DISC 4  &bt BT_SEL 1  &kp KP_N6  &rgb_ug RGB_HUI  &kp KP_SLASH  &rgb_ug RGB_SAI
       &rgb_ug RGB_SPD  &kp N1  &kp N2  &kp N3  &kp N4  &kp PG_DN  &trans  &trans  &trans  &kp N7  &kp N7  &kp N8  &kp N9  &kp N0  &rgb_ug RGB_SPI
-      &rgb_ug RGB_EFR  &bt_1  &kp LC(X)  &none  &none  &none  &trans  &trans  &none  &none  &kp COMMA  &kp DOT  &bt_3  &rgb_ug RGB_EFF
+      &rgb_ug RGB_EFR  &bt_1  &kp LC(X)  &bt BT_PRV  &bt BT_NXT  &none  &trans  &trans  &none  &bt BT_SEL 0  &kp COMMA  &kp DOT  &bt_3  &rgb_ug RGB_EFF
       &mo LAYER_All_layers  &trans  &to LAYER_kuru  &to LAYER_kuru  &trans  &kp KP_N0
             >;
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -2084,7 +2084,7 @@ behaviors {
             bindings = <
       &none  &none  &none  &Open_code_theme  &none  &none  &trans  &none  &none  &Open_code_Undo_previous_msgs  &none  &none  &none
       &none  &Open_code_concealment  &Open_code_export_session  &Open_code_jump_to_msg  &Open_code_new_session  &none  &trans  &trans  &trans  &none  &kp LC(P)  &Open_code_switch_session  &Open_code_jump_to_msg  &Open_code_copy_last_message  &none
-      &none  &none  &none  &none  &none  &none  &trans  &trans  &none  &none  &none  &none  &none  &none
+      &none  &kp C  &none  &none  &none  &none  &trans  &trans  &none  &none  &none  &none  &none  &none
       &none  &none  &none  &none  &none  &none
             >;
             sensor-bindings = <&rsr_vol &rsr_trans>;
